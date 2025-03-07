@@ -284,6 +284,11 @@ function onMessageFromNative (msg) {
     }
 }
 
+// for debug Capacitor
+cordova.platformId =
+  cordova.platformId ??
+  (typeof Capacitor !== 'undefined' && Capacitor.getPlatform());
+
 if (cordova.platformId === 'android') {
     var channel = require('cordova/channel');
 
