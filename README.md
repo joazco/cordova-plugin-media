@@ -1,3 +1,7 @@
+# Fork
+
+I’ve forked the project for those who want to use the plugin with Capacitor
+
 ---
 title: Media
 description: Record and play audio on the device.
